@@ -45,7 +45,7 @@ function check_diagonal(tab, size)
 function solve(tab, size)
 {
 	if ((check_horizontal(tab, size) + check_vertical(tab, size) + check_diagonal(tab, size)) == 0)
-		console.log(check_horizontal(tab, size));
+		console.log(tab);
 	return (tab);
 }
 
